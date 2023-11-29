@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4a1a1;
+}
+
+.school-diary {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.school-diary__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.school-diary__title {
+  font-size: 2em;
+  color: #333;
+}
+
+.school-diary__nav {
+  margin-bottom: 20px;
+}
+
+.school-diary__nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.school-diary__nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.school-diary__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.school-diary__main-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.school-diary__main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.school-diary__table th,
+.school-diary__table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.school-diary__table th {
+  background-color: #f0f0f0;
+}
+
+.school-diary__footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #666;
+}
